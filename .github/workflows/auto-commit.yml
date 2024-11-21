@@ -10,20 +10,24 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3  # Updated to the latest version
+      uses: actions/checkout@v3  # Use the latest version of actions/checkout
 
     - name: Set up Git
       run: |
-        git config --global user.email "mwendamutai@gmail.com"
-        git config --global user.name "nashon11"
+        git config --global user.email "mwendamutai@gmail.com"  # Make sure email is correct
+        git config --global user.name "nashon11"  # Set your GitHub username
 
     - name: Make 20 commits
       run: |
         for i in {1..20}; do
-          echo "Last updated: $(date)" >> README.md
+          echo "Last updated: $(date) - Commit #$i" >> README.md  # Force a change with a unique message
           git add README.md
           git commit -m "Auto commit #$i on $(date)" || echo "No changes to commit"
         done
 
     - name: Push Changes
       run: git push
+
+# Adding a comment to force a change
+# This is my auto-commit workflow
+
