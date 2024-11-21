@@ -1,0 +1,29 @@
+name: Auto Multiple Commits
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run the job every day at midnight UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3  # Updated to the latest version
+
+    - name: Set up Git
+      run: |
+        git config --global user.email "mwendamutai@gmail.com"
+        git config --global user.name "nashon11"
+
+    - name: Make 20 commits
+      run: |
+        for i in {1..20}; do
+          echo "Last updated: $(date)" >> README.md
+          git add README.md
+          git commit -m "Auto commit #$i on $(date)" || echo "No changes to commit"
+        done
+
+    - name: Push Changes
+      run: git push
