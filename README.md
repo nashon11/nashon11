@@ -1,4 +1,4 @@
-<h1 align="center">Hey there! 👋 I'm Nashon Mutai</h1>
+<h1 align="center">Hey there! 👋 I'm Nashon Mwenda Mutai</h1>
 <p align="center"> 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Fullstack+Software+Engineer;Data+Structures+%26+Algorithms+Enthusiast;Passionate+about+Tech+%26+Problem+Solving" alt="Typing SVG" />
 </p>
@@ -8,7 +8,6 @@
 ### 🚀 About Me:
 - 💻 Fullstack Software Engineer specialized in **MERN Stack & Python**
 - 🧠 Passionate about **Data Structures & Algorithms (DSA)**
-- 🎨 UI/UX Designer with experience in **Lunacy & Penpot**
 - 📚 Always learning new technologies & improving problem-solving skills
 - ✨ Building **ChoiceMate**, a Personalized E-commerce Recommendation System
 
@@ -38,14 +37,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-#### ⚙️ DevOps & Tools:
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
 ---
-
 ### 📊 GitHub Stats:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nashon11&show_icons=true&theme=radical" alt="GitHub Stats" width="400" />
